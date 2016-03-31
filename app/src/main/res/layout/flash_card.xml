@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardRoot"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp"
+    android:clickable="true">
+
+    <ViewFlipper android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout android:id="@+id/cardFront"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText android:id="@+id/cardFontTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:maxLines="2"
+                android:gravity="center"
+                android:textSize="35sp"
+                android:hint="Title"
+                android:layout_margin="5dp"/>
+
+
+            <EditText android:id="@+id/cardFontLine1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="line 1..."
+                android:gravity="left|center"
+                android:lines="3"
+                android:maxLines="3"
+                android:textSize="15sp"
+                android:layout_margin="5dp" />
+
+            <EditText android:id="@+id/cardFontLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="line 2..."
+                android:gravity="left|center"
+                android:lines="3"
+                android:textSize="15sp"
+                android:layout_margin="5dp"/>
+
+            <EditText android:id="@+id/cardFontLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="line 3..."
+                android:gravity="left|center"
+                android:lines="3"
+                android:maxLines="3"
+                android:textSize="15sp"
+                android:layout_margin="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/cardBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText android:id="@+id/cardBackTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:maxLines="2"
+                android:gravity="center"
+                android:textSize="35sp"
+                android:hint="タイトル"
+                android:layout_margin="5dp"/>
+
+            <EditText android:id="@+id/cardBackLine1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="１行目・・・"
+                android:gravity="left|center"
+                android:lines="3"
+                android:maxLines="3"
+                android:textSize="15sp"
+                android:layout_margin="5dp" />
+
+            <EditText android:id="@+id/cardBackLine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="２行目・・・"
+                android:gravity="left|center"
+                android:lines="3"
+                android:textSize="15sp"
+                android:layout_margin="5dp"/>
+
+            <EditText android:id="@+id/cardBackLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="３行目・・・"
+                android:gravity="left|center"
+                android:lines="3"
+                android:maxLines="3"
+                android:textSize="15sp"
+                android:layout_margin="5dp" />
+
+            </LinearLayout>
+    </ViewFlipper>
+
+</LinearLayout>
