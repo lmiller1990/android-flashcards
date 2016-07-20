@@ -8,5 +8,5 @@ be modified and adapted for other subjects/content.
 
 Images:
 
-![](http://s14.postimg.org/updjiupwx/12899363_10153637973738520_1760468548_o.jpg) ![](http://s14.postimg.org/m9nz1cn1t/12922049_10153637974513520_388346201_o.jpg) 
+http://s14.postimg.org/updjiupwx/12899363_10153637973738520_1760468548_o.jpg http://s14.postimg.org/m9nz1cn1t/12922049_10153637974513520_388346201_o.jpg
 ![](http://s14.postimg.org/qk2mwxs4x/12919503_10153637984283520_435601580_o.jpg) ![](http://s14.postimg.org/f565sbfsh/12899569_10153637981118520_1368547930_o.jpg)
